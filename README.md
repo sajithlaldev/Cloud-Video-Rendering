@@ -1,16 +1,6 @@
-# cloud_video
+I created a flutter web app that reads user's name and output a video showing the name, place (using IP address) and current time.
+Isn't it cool?
 
-A new Flutter project.
+Check it out: https://codethevideo.web.app/#/
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I used ShotStack API, free with watermark, that renders video in cloud according to a request json file(json format is described in the docs) which contains structure of timeline of the video.
